@@ -1,0 +1,76 @@
+<!-- <div class="d-flex nav-lang">
+  <div class="nav-wrapper">
+    <div class="sl-nav">
+      <ul>
+        <li [ngClass]="header ? 'service-color' : ''">
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+          <b>{{titleLang}}</b>
+          <ul>
+            <li (click)="changeLanguage('en')">
+              <span class="active">English</span>
+            </li>
+            <li (click)="changeLanguage('ar')">
+              <span>Arabic</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div> -->
+  <!-- ======= Header ======= -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center">
+          <img src="../../../../assets/img/header/1.png" alt="">
+        </i>
+      </div>
+      <div class="d-none d-md-flex align-items-center">
+        <span>Login</span>
+        <input type="text" class="form-control input-login" placeholder="Enter your name">
+        <input type="text" class="form-control input-login" placeholder="Enter your email">
+        <button class="btn btn-sing-up">Sing Up</button>
+      </div>
+    </div>
+  </section><!-- End Top Bar -->
+  <div class="container">
+    <div class="border"></div>
+  </div>
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    
+      <div class=" d-flex align-items-center">
+        <button class="btn btn-header">
+          <img src="../../../../assets/img/header/united-arab-emirates.png" alt="" srcset="">
+          United Arab Emirates</button>
+        <button class="btn btn-header">
+          <fa-icon icon="phone"></fa-icon>
+          +971 555555555</button>
+        <!-- <a href="index.html" class="logo">
+          <img src="assets/img/logo.png" alt="">
+          <h1>Impact<span>.</span></h1>
+        </a> -->
+      </div>
+      <nav id="navbar" class="navbar"   [ngClass]="toggleShow ? 'navbar-mobile' : ''">
+        <ul>
+          <li><a (click)="onClick('hero')" >Home</a></li>
+          <li><a >Consultation</a></li>
+          <li><a (click)="onClick('articles')" >Article</a></li>
+          <li><a >Cases</a></li>
+          <li><a >Library</a></li>
+          <li><a >Contact US</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div (click)="toggle()">
+        <fa-icon class="mobile-nav-toggle mobile-nav-show bi bi-list" icon="bars"></fa-icon>
+      </div>
+      <!-- <fa-icon class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x" icon="bars"></fa-icon> -->
+      <!-- <i class="mobile-nav-toggle mobile-nav-show bi bi-list">==</i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x">==</i> -->
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->

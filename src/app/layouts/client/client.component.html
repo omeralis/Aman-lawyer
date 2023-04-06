@@ -1,0 +1,18 @@
+<section id="client" class="client">
+    <div class="section-header">
+        <h2>OUR CLIENTS</h2>
+    </div>
+    <div class="container position-relative">
+        <div class="content">
+            <carousel [itemsPerSlide]="itemsPerSlide" [singleSlideOffset]="false" [interval]="0"
+                [indicatorsByChunk]="true">
+                <slide *ngFor="let slide of slides; let index=index">
+                    <img [src]="slide.image" alt="image slide" style="display: block; width: 100%;">
+                    <!-- <div class="carousel-caption">
+                        <h4>Slide {{index}}</h4>
+                    </div> -->
+                </slide>
+            </carousel>
+        </div>
+    </div>
+</section>

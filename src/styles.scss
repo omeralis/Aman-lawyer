@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import '../node_modules/animate.css/animate.min.css';
+@import url('assets/css/fonts.scss');
+@import '../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Oswald:wght@500&display=swap');
+@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+@import url(./assets/css/fonts.scss);
+@import url(./assets/css/main.scss);
+@import url(../node_modules/animate.css/animate.min.css);
+// @import url('../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel.scss');
+// @import url('../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default.scss');
+
+
+/*font-family: 'Scheherazade', serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/fonts/Helvetica.ttf');
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: .3px;
+}
+
+@font-face {
+    font-family: 'Tajawal';
+    src: url('./assets/fonts/Tajawal/Tajawal-Regular.ttf');
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: .3px;
+}
+:root {
+    --primary: #004E63;
+    /* blue */
+    --secondary: #F8F8F8;
+    /* gray */
+    --white: #ffffff;
+    /* white */
+    // --dark: #112d4e;
+    --dark: #36a448;
+    --dark-hover: #1b67b352;
+    /* black */
+    --paragraph: #213242;
+    --black: #000000;
+    --hover: #ba9c60;
+    // --font-family: Scheherazade;
+    --font-ar:Tajawal;
+    --font-family: Helvetica;
+}
+
+// @media (max-width: 1024px) {
+//     section {
+//         background-attachment: fixed;
+//     }
+// }
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--white);
+}
+[dir=rtl] body {
+    font-family: var(--font-ar);
+}
+
+
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--white);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--white);
+  }

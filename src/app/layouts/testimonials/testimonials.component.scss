@@ -1,0 +1,91 @@
+.testimonials {
+    border-bottom: 1px solid #ddd;
+}
+.padding-content{
+    padding-bottom: 25px;
+}
+.box {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    box-shadow: 3px 0 31px 6px rgba(0, 0, 0, 0.08);
+    padding: 2.5rem;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -25px;
+        right: 0;
+        border-top: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        width: 80%;
+        height: 100%;
+        box-shadow: 100px 0 55px 20px rgb(255 255 255);
+    }
+}
+
+.box h6 {
+    text-transform: uppercase;
+    img{
+        position: absolute;
+        top: 5px;
+        right: 30px;
+        width: 15%;
+    }
+    span {
+        font-weight: 900;
+    }
+
+    fa-icon.ng-fa-icon {
+        width: 35px;
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        color: #d5ad36 !important;
+        font-size: 3rem;
+    }
+}
+
+.box .profile {
+    width: 75px;
+    position: absolute;
+    top: -10px;
+    left: -70px;
+}
+
+.box .span-black {
+    position: absolute;
+    width: 20px;
+    background-color: #000;
+    left: 70px;
+    top: -40px;
+    height: 40px;
+}
+
+.box .rate {
+    position: absolute;
+    background: #d5ad36;
+    width: 89%;
+    bottom: -25px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+
+    span {
+        margin: 0 5px;
+    }
+}
+
+fa-icon.ng-fa-icon {
+    font-size: 30px;
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+    .box{
+        margin: 12% 0;
+    }
+    .box-mobile{
+        margin-top: 0;
+    }
+}

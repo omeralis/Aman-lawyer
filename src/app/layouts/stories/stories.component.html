@@ -1,0 +1,23 @@
+<section id="stories" class="stories">
+    <div class="section-header">
+        <h2>SUCCESS STORIES</h2>
+    </div>
+
+    <div class="content">
+        <carousel [itemsPerSlide]="itemsPerSlide" [singleSlideOffset]="false" [interval]="0" [indicatorsByChunk]="true">
+            <slide *ngFor="let slide of slides; let index=index">
+                <div class="box">
+                    <div class="box-header">
+                        <img [src]="slide.image" alt="image slide" style="display: block; width: 100%;">
+                        <h6> {{slide.title}} </h6>
+                    </div>
+                    <p>  {{slide.content}} </p>
+                </div>
+    
+                <!-- <div class="carousel-caption">
+                    <h4>Slide {{index}}</h4>
+                </div> -->
+            </slide>
+        </carousel>
+    </div>
+</section>

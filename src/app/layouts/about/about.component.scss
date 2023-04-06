@@ -1,0 +1,98 @@
+
+/*--------------------------------------------------------------
+# about Section
+--------------------------------------------------------------*/
+// #about{
+//     // padding: 160px 0 0 0;
+// }
+#about .about-header {
+    display: flex;
+    padding: 0 0 1.5rem 0;
+
+    span {
+        width: 25px;
+        height: 25px;
+        background-color: var(--black);
+        margin: 6px 10px 0 0;
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+}
+
+#about {
+    .box {
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+        // box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease-in-out;
+        border-radius: 8px;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+
+        h4 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .icon {
+            margin-bottom: 0.5rem;
+
+            img {
+                width: 20%;
+            }
+        }
+    }
+
+    .box-01 {
+        background-color: #3570fe;
+
+        h4,
+        p,
+        h6,
+        .icon {
+            color: #ffffff;
+        }
+    }
+
+    .box-02 {
+        background-color: #f4f3f4;
+
+        h4,
+        p,
+        h6,
+        .icon {
+            color: #3570fe;
+        }
+    }
+
+    .box-03 {
+        background-color: #131a41;
+
+        h4,
+        p,
+        h6,
+        .icon {
+            color: #ffffff;
+        }
+    }
+
+    .box-04 {
+        background-color: #ebecf2;
+
+        h4,
+        p,
+        h6,
+        .icon {
+            color: #131a41;
+        }
+    }
+}
+
+#about .img-signature img {
+    width: 25%;
+}

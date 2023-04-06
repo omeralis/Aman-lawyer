@@ -1,0 +1,37 @@
+
+/*--------------------------------------------------------------
+# articles Section
+--------------------------------------------------------------*/
+.articles {
+    span {
+        background: #b1902d;
+        color: #fff;
+        padding: 5px;
+    }
+
+    img {
+        width: 40px;
+        height: 30px;
+        margin: 10px 20px 0 0;
+    }
+
+    a {
+        background: #b1902d;
+        color: #fff;
+        padding: 2px;
+        border-radius: 15px;
+        font-size: 12px;
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
+    h4{
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 768px) {
+    .articles  a {
+        width: 25%;
+    }
+}

@@ -1,0 +1,75 @@
+<section id="team" class="team">
+    <div class="section-header">
+        <h2>OUR TEAM</h2>
+    </div>
+
+    <div>
+        <span class="prv" (click)="togglePrv()">
+            <label>
+                <fa-icon icon="chevron-right"></fa-icon>
+            </label>
+        </span>
+        <span class="next" (click)="toggleNext()">
+            <label >
+                <fa-icon icon="chevron-left"></fa-icon>
+            </label>
+         </span>
+    </div>
+    <div class="container">
+        <div class="main-card">
+            <input type="radio" name="slider" id="item1" [checked]="checkedPrv1">
+            <input type="radio" name="slider" id="item2" [checked]="checkedPrv2">
+            <input type="radio" name="slider" id="item3" [checked]="checkedPrv3">
+            <!-- <input type="radio" name="slider" id="item-4">
+            <input type="radio" name="slider" id="item-5"> -->
+            <div class="cards">
+                <label class="card" for="item1" id="song1">
+                    <div class="content-card">
+                        <div class="card-icon">
+                        </div>
+                        <img src="../../../assets/img/client/02.png" alt="" srcset="">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">+</span>
+                        <input type="text" class="form-control" placeholder="Name Here" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, quisquam.
+                    </span>
+                </label>
+                <label class="card" for="item2" id="song2">
+                    <div class="content-card">
+                        <div class="card-icon">
+                        </div>
+                        <img src="../../../assets/img/client/01.png" alt="" srcset="">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">+</span>
+                        <input type="text" class="form-control" placeholder="Name Here" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, quisquam.
+                    </span>
+                </label>
+                <label class="card" for="item3" id="song3">
+                    <div class="content-card">
+                        <div class="card-icon">
+                        </div>
+                        <img src="../../../assets/img/client/03.png" alt="" srcset="">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">+</span>
+                        <input type="text" class="form-control" placeholder="Name Here" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, quisquam.
+                    </span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+</section>

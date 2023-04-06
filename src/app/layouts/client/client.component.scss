@@ -1,0 +1,81 @@
+.client{
+    border-bottom: 1px solid #ddd;
+}
+// .section-header{
+//     border-bottom: 1px solid #ddd;
+//     padding: 0;
+// }
+// .content{
+//     padding: 3rem 0 0 0;
+// }
+.carousel-item {
+    margin-right: 0;
+    display: flex;
+    align-items: center
+}
+// ::ng-deep .carousel-control-prev-icon {
+//     background-image: url(../../../assets/img/licensed/1.svg) !important;
+// }
+// ::ng-deep .carousel-control-next-icon {
+//     background-image: url(../../../assets/img/licensed/2.svg) !important;
+// }
+.client ::ng-deep  .carousel-item .item img{
+    width: 50% !important;
+    margin: 0 5px;
+}
+.client ::ng-deep .carousel-control-prev {
+    left: -120px;
+    background: #d5ad36;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    opacity: 1;
+}
+.client ::ng-deep .carousel-control-next {
+    right: -120px;
+    background: #d5ad36;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    opacity: 1;
+}
+// ::ng-deep .carousel-item {
+//     float: unset;
+//     left: 10%;
+// }
+
+// .box .box-header{
+//     display: flex;
+//     align-items: center;
+//     h6{
+//         font-weight: 900;
+//     }
+// }
+// .box p{
+//     width: 60%;
+//     margin: 0.5rem;
+// }
+
+
+@media (max-width: 575px) {
+    .client ::ng-deep .carousel-control-next {
+        right: -24px;
+        width: 40px;
+        height: 50px;
+        top: 0;
+    }
+    .client ::ng-deep .carousel-control-prev {
+        left: -24px;
+        width: 40px;
+        height: 50px;
+        top: 0;
+    }
+//     .box .box-header h6 {
+//         font-size: 0.8rem;
+//     }
+//     .box p {
+//         width: 60%;
+//         margin: 0.5rem 0;
+//         font-size: 0.7rem;
+//     }
+}

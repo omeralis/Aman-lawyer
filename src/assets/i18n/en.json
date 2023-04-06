@@ -1,0 +1,107 @@
+{
+    "hero": {
+        "content-title": "YOUR AMBITION OUR VISION",
+        "btn-header": "DIGITAL MARKETING AGENCY",
+        "btn-contact": "Contact Us"
+    },
+    "about": {
+        "About": "About us",
+        "title-about": "Lawyer is a digital marketing and events organizer agency offering various services to help you achieve your marketing goals. We specialize in search engine optimization (SEO), paid advertising, content creation and management, website design and development, social media platform marketing, photography, video, and more."
+    },
+    "services": {
+        "service": "Our services",
+        "media": "media",
+        "EventManagement": "Event Management",
+        "WebsiteDeveloper": "WEBSITE  DEVELOPER",
+        "DigitalMarketing": "Digital marketing",
+        "GraphicDesign": "Graphic design",
+        "StartUp": "Start up"
+    },
+    "marketing": {
+        "marketing-agency": "marketing agency ",
+        "media-digital": "an media digital marketing "
+    },
+    "client": {
+        "our-client": "Our Client",
+        "client": "Client",
+        "projects": "projects"
+    },
+    "reviews": {
+        "reviews": "reviews",
+        "title-card-1": "MF Designs",
+        "title-card-2": "Oud House",
+        "title-card-3": "Bright consultant",
+        "content-card-1": "I recommend Lawyer for advertising campaigns.  They really are the best in the business.  We asked Lawyer to create and run a campaign on Facebook, and they have proven their expertise in this field through strong results",
+        "content-card-2": "My Instagram account has been managed professionally throughout the time I spent with you",
+        "content-card-3": "I thank you very much for developing my website professionally, in terms of design and functionality, it is considered at the highest level of professionalism"
+    },
+    "gallery": {
+        "our-gallery": "our gallery"
+    },
+    "our-services": {
+        "our-services": "our services"
+    },
+    "events": {
+        "events": "Event Management",
+        "about-events": "At Lawyer, we offer our clients comprehensive event planning and management services. We have a dedicated team with event experience and knowledge to turn any effectiveness into success. We also understand that organizing a successful event requires meticulous planning and implementation. We strive to exceed your expectations and provide an exceptional experience in event planning and management.",
+        "description-events-1": "Exhibitions",
+        "description-events-2": "Official activities of government institutions and agencies",
+        "description-events-3": "conferences",
+        "description-events-4": "Entertainment events"
+    },
+    "digital-marketing": {
+        "digital-marketing": "Digital Marketing",
+        "about-digital": "Digital marketing has quickly become an essential part of any successful business strategy. It allows businesses to reach out to a wider audience and interact with them more effectively. With the help of digital marketing, companies can create content that appeals to their target audience to build profitable relationships with them. Digital marketing also allows organizations to track their performance, measure ROI and improve campaigns for better results. ",
+        "description-digital-1": "Social media marketing is a powerful tool that helps you spread to acquire new customers. Lawyer offers professional social media marketing services to help you reach your goals. Instagram, Facebook , Snapchat ,TikTok ,LinkedIn , Twitter",
+        "description-digital-2": "We provide marketing content creation services of both textual and visual types for social media platforms or websites. Following thoughtful marketing strategies for your brand makes it distinct from others.",
+        "description-digital-3": "We provide email marketing services to help you expand your customer base. We have an experienced team who can lead marketing campaigns via email designed according to your specific needs. Then measure the results to make sure they reach the target segment.",
+        "description-digital-4": "SEO is the abbreviation of SEO engine optimization and is the way to improve your website's visibility in search results. sections used for websites, and some features can be used on Google maps and social media platforms to be in the list of first search results. We have enough experience to make us unique in this field."
+    },
+    "graphic-design": {
+        "graphic-design": "graphic design",
+        "about-graphic-design": "Digital space needs a solid visual presence to make you distinct from competitors. Our graphic design team can offer you a wide range that helps you create unique and distinctive designs.",
+        "description-graphic-design-01": "Visual identity (logo, colors, and fonts)",
+        "description-graphic-design-02": "prints (Food menus, Company profiles, billboards)",
+        "description-graphic-design-03": "Stationery (identification cards, letters, envelopes, and pens)",
+        "description-graphic-design-04": "Digital Designs (Social Media Platform Designs and Web Designs)"
+    },
+    "Media": {
+        "Media": "social Media",
+        "about-Media": "Earn customer trust and loyalty easily and that's what drives them to buy from you because good and close-to-reality images will be a way to boost their sense of confidence immediately. It also makes an impression with the confidence and transparency of the store and its products because you display real images of the products in high quality and in more than one angle which enhances the customer that your store is impartial and values the mindset of their customers.",
+        "description-Media-01": "Photography is not limited to freezing a moment in time and place. It helps to bring out the finest details of any event or product from several angles to satisfy the curiosity and passion of the recipient.",
+        "description-Media-02": "At Lawyer Media, we use the latest technology and equipment in photography with high professionalism and innovative ways to help you present a picture of a thousand words.Events-Fashion-Food-Products-Jewelry.",
+        "description-Media-03": "Motion Graphics is currently one of the most effective types of marketing content; when designing, Motion Graphic Video describes the product and services to the buyer in a professional, attractive, and innovative manner. Although the Motion Graphic video may not exceed a few minutes on the product, it is enough to introduce the customer to your product attractively and compellingly. This will certainly make the consumer more encouraged to buy the product. Lawyer Media offers professional Motion Graphic services to help you enhance your marketing content."
+    },
+    "website": {
+        "website": "Website design & development",
+        "about-website": "With the rapid development and global orientation of artificial intelligence and digital marketing. The website is a fundamental pillar of this world. It is a limited long distance for the shopper to reach your company. It makes it easy and conveniently wander around your company to recognize your products and services as if they exist. Media can design and create your site uniquely that fits all devices.",
+        "description-website-1": "E-commerce web sites",
+        "description-website-2": "customized web sites",
+        "description-website-3": "WordPress"
+    },
+    "startups": {
+        "startups": "startups",
+        "about-startups": "Startups face many difficulties and challenges. It is no secret that starting a business can be a difficult endeavor. You need to come up with a great idea, secure finance, find the right partners, and develop a plan to make it profitable.",
+        "description-startups-1": "Digital marketing consultant",
+        "description-startups-2": "Branding-kit design",
+        "description-startups-3": "Social media management",
+        "description-startups-4": "Paid Ads"
+    },
+    "contact": {
+        "contact": "contact us",
+        "content-contact": "OUR FRIENDLY TEAM WOULD LOVE TO HEAR FROM YOU",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message",
+        "btn-send": "Send Message"
+    },
+    "footer": {
+        "Home": "Home",
+        "About": "About",
+        "services": "services",
+        "contact": "contact",
+        "content-footer": "Lawyer MEDIA DIGITAL MARKETING AGENCY",
+        "location": "AL KHAZZAF ST - AL NAHYAN - E25 ABU DHABI - UAE"
+    }
+}
