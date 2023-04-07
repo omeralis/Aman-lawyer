@@ -24,6 +24,7 @@ import { TeamComponent } from './layouts/team/team.component';
 import { AwardsComponent } from './layouts/awards/awards.component';
 import { TestimonialsComponent } from './layouts/testimonials/testimonials.component';
 import { ClientComponent } from './layouts/client/client.component';
+import { VideoListComponent } from './layouts/video-list/video-list.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { ClientComponent } from './layouts/client/client.component';
     AwardsComponent,
     TestimonialsComponent,
     ClientComponent,
+    VideoListComponent,
   ],
   imports: [
     BrowserModule,
